@@ -1,4 +1,4 @@
-# 📊 Pollster Analysis and Credibility Insights (2024)
+# 📊 2024 Pollster Analysis 
 **Tools:** Python | Pandas | NumPy | Seaborn | Matplotlib | Power BI  
 **Domain:** Politics | Public Opinion Research  
 **Language:** Python (EDA, Data Cleaning) | DAX (Power BI)  
@@ -36,6 +36,41 @@ This project analyzes pollster data from the 2024 U.S. elections to understand c
 
 ## ❓ Problem Statement
 Polling credibility varies widely depending on sponsor type and partisan alignment. The challenge is to identify which pollsters are reliable, how sponsorship influences ratings, and where polling coverage is concentrated, especially in battleground states.
+
+## 📊 Visualization
+
+<img width="1055" height="603" alt="image" src="https://github.com/user-attachments/assets/9d3c0327-eb10-4842-952b-9d08ef365f84" />
+
+<br><br>
+
+<img width="1055" height="641" alt="image" src="https://github.com/user-attachments/assets/29470c21-333a-479d-8323-497add13c5a2" />
+
+### State Analysis Dashboard
+- Total polls by state and partisanship (REP, DEM, IND)
+- Battleground states highlighted (PA, MI, WI, GA)
+- Interactive slicers for dynamic state selection
+- Map visualization showing poll distribution by credibility rating
+- Bar chart comparing poll counts and ratings across states
+- Navigation buttons for seamless movement between dashboard pages
+
+<img width="1072" height="598" alt="image" src="https://github.com/user-attachments/assets/1b78c069-61ac-4c9a-95bc-b8102432c288" />
+
+### Pollster Insights Dashboard
+- Top 10 pollsters ranked by rating
+- Sponsorship distribution (media, PAC, university)
+- Average poll length and credibility scores
+- Scatter plot comparing poll length vs error margin
+- Drill-down filters for pollster type and partisanship
+
+  <img width="1074" height="601" alt="image" src="https://github.com/user-attachments/assets/8ead0d8c-a966-40d9-8117-95c352bdc175" />
+
+### Partisanship Analysis Dashboard
+- Distribution of polls by political alignment (REP, DEM, IND)
+- Pie chart showing partisan share of polls
+- Box plot comparing credibility ratings by partisanship
+- KPI cards summarizing total polls and average ratings
+- Interactive slicers for filtering by poll type, state, and pollster
+
 
 ## 📊 Key Findings
 - Republican pollsters dominate in count, but Democrats edge higher in ratings
